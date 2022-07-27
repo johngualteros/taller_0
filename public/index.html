@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../static/css/style.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6131ecdde6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Taller 0 Maquetación Responsive</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="../static/img/Hotelia horizontal blanco.svg" />
+      </div>
+      <div class="menu">
+        <a href="index.html" class="item">Inicio</a>
+        <a href="ubicanos.html" class="item">Ubícanos</a>
+        <a href="opiniones.html" class="item">Opiniones</a>
+        <a href="./login.html" class="item button"
+          ><i class="fa-solid fa-user"></i> Iniciar Sesión</a
+        >
+      </div>
+    </nav>
+    <!-- Home -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="../static/img/slide1.jpg"
+            class="d-block w-100"
+            alt="..."
+            data-bs-interval="3000"
+          />
+          <div
+            class="carousel-caption bg-secondary bg-opacity-50 d-none d-md-block"
+          >
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../static/img/slide2.png"
+            class="d-block w-100"
+            alt="..."
+            data-bs-interval="5000"
+          />
+          <div
+            class="carousel-caption bg-secondary bg-opacity-50 d-none d-md-block"
+          >
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Datos -->
+    <section class="information">
+      <p class="paragraph-information">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
+        voluptatibus natus tempore sed quibusdam! Aspernatur dolore amet, facere
+        nemo inventore autem nulla quas nam! Ea dolore libero obcaecati harum
+        dignissimos? Aperiam natus nisi est incidunt eveniet accusamus quasi
+        quisquam rem quibusdam, dignissimos illum possimus reprehenderit maiores
+        ipsa voluptatum recusandae! Perferendis, laborum! Rem modi iusto harum,
+        suscipit officiis magnam necessitatibus amet? Perspiciatis laboriosam
+        minima earum! Consequuntur pariatur, illo adipisci saepe ipsam eius
+        harum maxime, animi quisquam molestias, delectus explicabo tempore optio
+        dolore. Maxime, commodi!
+      </p>
+      <img
+        src="../static/img/Hotelia negro vertical.svg"
+        alt="logo"
+        width="200"
+      />
+    </section>
+    <section id="features">
+      <h2 class="features-title">
+        Razones por las que disfrutarás quedarte con nosotros
+      </h2>
+      <div class="features-description">
+        <div class="feature feature-blue">
+          <i class="fa-solid fa-bell-concierge"></i>
+          <p>Lorem ipsum dolor</p>
+        </div>
+        <div class="feature feature-black">
+          <i class="fa-solid fa-bed"></i>
+          <p>Lorem ipsum dolor</p>
+        </div>
+        <div class="feature feature-blue">
+          <i class="fa-solid fa-wifi"></i>
+          <p>Lorem ipsum dolor</p>
+        </div>
+        <div class="feature feature-black">
+          <i class="fa-solid fa-dumbbell"></i>
+          <p>Lorem ipsum dolor</p>
+        </div>
+      </div>
+    </section>
+    <section class="ubication">
+      <h2 class="ubication-title">Ubicación</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9644120170606!2d-74.07747274990444!3d4.600397243784256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a7147877c9%3A0x378b95e9cbda0740!2sCra.%208%20%2312a-42%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1658888158387!5m2!1ses!2sco"
+        height="500"
+        style="border: 0; width: 100%"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <h3 class="adress">CARRERA 8 #12a-42, BOGOTÁ DC COLOMBIA</h3>
+      <h3>+57 6014567899</h3>
+    </section>
+    <!-- Cards -->
+    <section class="starred">
+      <h1 class="title-starred">Nuestros usuarios dicen...</h1>
+      <div class="container-votes">
+        <div class="vote">
+          <div class="info-profile-vote">
+            <img
+              src="https://img.blogs.es/anexom/wp-content/uploads/2021/12/perfil-1024x754.jpg"
+              alt=""
+              class="img-vote"
+            />
+            <div>
+              <h6 class="name-vote">Diego Rodriguez</h6>
+              <p class="stars">
+                <span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star" id="icon-star"></i></span>
+              </p>
+            </div>
+          </div>
+          <p class="description-vote">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+            eligendi.
+          </p>
+        </div>
+        <div class="vote">
+          <div class="info-profile-vote">
+            <img
+              src="https://img.blogs.es/anexom/wp-content/uploads/2021/12/perfil-1024x754.jpg"
+              alt=""
+              class="img-vote"
+            />
+            <div>
+              <h6 class="name-vote">Diego Rodriguez</h6>
+              <p class="stars">
+                <span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span>
+              </p>
+            </div>
+          </div>
+          <p class="description-vote">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+            eligendi.
+          </p>
+        </div>
+        <div class="vote">
+          <div class="info-profile-vote">
+            <img
+              src="https://img.blogs.es/anexom/wp-content/uploads/2021/12/perfil-1024x754.jpg"
+              alt=""
+              class="img-vote"
+            />
+            <div>
+              <h6 class="name-vote">Diego Rodriguez</h6>
+              <p class="stars">
+                <span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star"></i></span
+                ><span><i class="fa-solid fa-star" id="icon-star"></i></span>
+              </p>
+            </div>
+          </div>
+          <p class="description-vote">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+            eligendi.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="votes"></div>
+
+    <footer>
+      <div>
+        Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Aut, cum.
+      </div>
+      <div>
+        <p>
+          <i class="fa-solid fa-location-dot"></i>CARRERA 8 #12a-42, BOGOTÁ DC
+          COLOMBIA
+        </p>
+        <p><i class="fa-solid fa-phone"></i>+57 6014567899</p>
+      </div>
+      <div>
+        <p>Politica de privacidad</p>
+        <p>Politica de privacidad</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
