@@ -170,7 +170,7 @@ nav a {
 .vote {
   background-image: url(../img/Group\ 200.svg);
   background-repeat: no-repeat;
-  width: 70%;
+  width: 450px;
   min-width: 250px;
   margin: -10px 20px 10px 20px;
   height: 250px;
@@ -598,7 +598,7 @@ input[type="checkbox"] {
 /* Estilos dashboard */
 .container_dashboard {
   width: 100%;
-  height: 100vh;
+  height: auto !important;
   background-image: url(../img/bg-register.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -607,7 +607,8 @@ input[type="checkbox"] {
 }
 .sidebar_dashboard {
   width: 100%;
-  height: 100%;
+  height: auto;
+  min-height: 100vh;
   background-color: var(--azulnegro);
   backdrop-filter: blur(5px);
   display: flex;
@@ -626,6 +627,9 @@ input[type="checkbox"] {
   color: var(--blanco);
   background-image: url(../img/Group\ 200.svg);
   background-size: cover;
+}
+.sidebar_logo_2{
+  display: none;
 }
 .sidebar_dashboard a {
   text-decoration: none;
@@ -651,7 +655,7 @@ input[type="checkbox"] {
 }
 .dashboard {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -659,7 +663,8 @@ input[type="checkbox"] {
 }
 .container_info_dashboard {
   width: 90%;
-  height: 90%;
+  height: auto;
+  min-height: 90%;
   background-color: rgba(255, 255, 255, 0.8);
   display: grid;
   grid-template-columns: 20% auto;
@@ -694,7 +699,7 @@ input[type="checkbox"] {
 }
 .container_information_dashboard {
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 10px;
   display: grid;
   grid-template-columns: auto;
@@ -713,7 +718,7 @@ input[type="checkbox"] {
 }
 .btn-edit {
   width: 100%;
-  height: 100px !important;
+  height: 40px;
   cursor: pointer;
   padding: 5px;
   background-color: #141414;
@@ -722,11 +727,90 @@ input[type="checkbox"] {
 }
 .container-change-password {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: grid;
   grid-template-columns: 45% auto;
   column-gap: 20px;
 }
 .container-change-password label {
   color: var(--negro2);
+}
+.photo-content img{
+  width: 100%;
+}
+@media (max-width: 1024px){
+  .container_dashboard{
+    height: auto;
+  }
+  .container_info_dashboard{
+    display: block !important;
+    grid-template-columns: 1fr;
+    }
+  .info_general_dashboard {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 20px;
+    padding: 0 0 20px 0;
+  }
+  .photo-content{
+    text-align: center;
+  }
+  .photo-content img{
+    width: 30%;
+    margin: 0 auto;
+  }
+  .container-change-password{
+    grid-template-columns: 1fr;
+  }
+  #icon-send-report{
+    display: none;
+  }
+  .btn-change-password{
+    display: none;
+  }
+  .sidebar_logo_2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 20px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--blanco);
+    background-image: url(../img/Group\ 200.svg);
+    background-size: cover;
+  }
+  .sidebar_logo{
+    display: none;
+  }
+  .sidebar_logo_2 img{
+    width: 30%;
+    margin: 5px;
+    border-radius: 50%;
+  }
+  .action_sidebar a{
+    font-size: 32px;
+  }
+  .action_sidebar a:hover{
+    background-color: var(--azuloscuro);
+    padding: 2px;
+  }
+  .text-sidebar{
+    display: none;
+  }
+  .logout a{
+    font-size: 32px;
+  }
+  .text-logout{
+    display: none;
+  }
+  .btn-edit{
+    width: 80%;
+    height: auto;
+  }
+  #input{
+    width: 90%;
+  }
 }

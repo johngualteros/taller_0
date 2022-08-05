@@ -180,7 +180,7 @@ nav a {
   height: 250px;
   background-color: var(--azuloscuro);
   z-index: 2;
-  padding: 50px;
+  padding: 20px;
   color: var(--blanco);
 }
 .img-vote {
@@ -212,7 +212,7 @@ nav a {
 }
 .description-vote {
   font-size: 16px;
-  margin: 20px;
+  margin-top: 40px;
 }
 footer {
   width: 100%;
@@ -286,7 +286,7 @@ footer {
   }
   .description-vote {
     font-size: 14px;
-    margin: 15px;
+    margin: 45px;
   }
   footer div {
     margin: 10px;

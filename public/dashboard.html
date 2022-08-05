@@ -19,15 +19,19 @@
           <h3>Angie vargas</h3>
           <p>angievargas2@gmail.com</p>
         </div>
+        <div class="sidebar_logo_2">
+          <img src="../static/img/hotelia campana.svg" alt="">
+          <img src="../static/img/face_dashboard.jpg" alt="">
+        </div>
         <div class="action_sidebar">
           
-          <a href="#"><i class="fa-solid fa-bed"></i> Habitaciones</a>
-          <a href="#"><i class="fa-solid fa-bell"></i> Habitaciones</a>
-          <a href="#"><i class="fa-solid fa-bell"></i> Habitaciones</a>
-          <a href="#"><i class="fa-solid fa-bed"></i> Habitaciones</a>
+          <a href="#"><i class="fa-solid fa-bed"></i> <span class="text-sidebar">Habitaciones</span></a>
+          <a href="#"><i class="fa-solid fa-bell"></i> <span class="text-sidebar">Reservas</span></a>
+          <a href="#"><i class="fa-solid fa-bell"></i> <span class="text-sidebar">Habitaciones</span></a>
+          <a href="#"><i class="fa-solid fa-bed"></i> <span class="text-sidebar">Habitaciones</span></a>
         </div>
         <div class="logout">
-          <a href="./index.html"><i class="fa-solid fa-right-from-bracket"></i>Cerrar sesión</a>
+          <a href="./index.html"><i class="fa-solid fa-right-from-bracket"></i><span class="text-logout">Cerrar sesión</span></a>
         </div>
       </div>
 
@@ -35,9 +39,9 @@
         <div class="container_info_dashboard">
           <h1>Bienvenido, Camilo vanegas</h1>
           <div class="photo-content">
-            <img src="../static/img/face_dashboard.jpg" alt="foto camilo" width="200">
+            <img src="../static/img/face_dashboard.jpg" alt="foto camilo">
             <div class="container-action-profile">
-              <i class="fa-solid fa-file-import"></i>
+              <i class="fa-solid fa-file-import" id="icon-send-report"></i>
               <i class="fa-solid fa-upload"></i>
             </div>
             <button class="btn-change-password">
@@ -48,50 +52,50 @@
             <div class="info_general_dashboard">
               <div>
                 <label for="">Tipo de documento</label>
-                <input type="text" value="Cédula de ciudadanía">
+                <input type="text" value="Cédula de ciudadanía" id="input">
               </div>
               <div>
                 <label for="">Número de documento</label>
-                <input type="text" value="1025417456">
+                <input type="text" value="1025417456" id="input">
               </div>
               <div>
                 <label for="">Nombres</label>
-                <input type="text" value="Camilo Jose">
+                <input type="text" value="Camilo Jose" id="input">
               </div>
               <div>
                 <label for="">Apellidos</label>
-                <input type="text" value="Vanegas rincon">
+                <input type="text" value="Vanegas rincon" id="input">
               </div>
               <div>
                 <label for="">Fecha de nacimiento</label>
-                <input type="text" value="10/08/1976">
+                <input type="text" value="10/08/1976" id="input">
               </div>
               <div>
                 <label for="">País de origen</label>
-                <input type="text" value="Colombia">
+                <input type="text" value="Colombia" id="input">
               </div>
               <div>
                 <label for="">Genero</label>
-                <input type="text" value="Masculino">
+                <input type="text" value="Masculino" id="input">
               </div>
               <div>
                 <label for="">Telefono de contacto</label>
-                <input type="text" value="3135207460">
+                <input type="text" value="3135207460" id="input">
               </div>
               <div>
                 <label for="">Email</label>
-                <input type="text" value="camilovanegas2@gmail.com">
+                <input type="text" value="camilovanegas2@gmail.com" id="input">
               </div>
               <button class="btn-edit"> Actualizar </button>
             </div>
             <div class="container-change-password">
               <div>
                 <label for="">Password</label>
-                <input type="password">
+                <input type="password" id="input">
               </div>
               <div>
                 <label for="">Confirm Password</label>
-                <input type="password">
+                <input type="password" id="input">
               </div>
               <button class="btn-edit">Cambiar contraseña</button>
             </div>
